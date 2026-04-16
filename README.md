@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hi+👋+I'm+Roshan+Kumar;Java+Backend+Developer;Spring+Boot+%7C+REST+API+%7C+PostgreSQL;Building+Scalable+Backend+Systems+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Roshan+Kumar;Java+Backend+Developer;Spring+Boot+%7C+REST+API+%7C+PostgreSQL;Building+Scalable+Backend+Systems+🚀;Open+to+Work+💼" />
 </p>
 
 <h1 align="center">🚀 Roshan Kumar</h1>
-<h3 align="center">Java Backend Developer | Spring Boot | REST APIs</h3>
+<h3 align="center">Java Backend Developer | Spring Boot | REST APIs | PostgreSQL</h3>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Open%20to%20Work-YES-brightgreen?style=for-the-badge" />
   <img src="https://komarev.com/ghpvc/?username=roshan-62013&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
 </p>
 
@@ -17,10 +18,10 @@
 
 - 💻 Java Backend Developer (Spring Boot)
 - 🔥 Solved **300+ DSA problems**
-- 🧠 Strong in **Data Structures & Algorithms**
-- ⚡ Skilled in **REST API, JDBC, Hibernate, JPA**
-- 🌱 Learning **System Design & Microservices**
-- 🎯 Goal: Crack a **Product-Based Company**
+- ⚡ Strong in **REST APIs, JDBC, Hibernate, JPA**
+- 🧠 Good understanding of **Database Design & Backend Architecture**
+- 🌱 Learning **Microservices & System Design**
+- 🎯 Target: Product-Based Company
 
 ---
 
@@ -50,22 +51,38 @@
 
 ## 📂 Featured Projects
 
-✨ **School Management System**
+### 🔹 School Management System
 - Spring Boot + PostgreSQL  
-- REST APIs + CRUD Operations  
-- Proper ER Design  
-
-✨ **MyBlogApp**
-- Spring Boot + Thymeleaf + Security  
-- Authentication + Admin Panel  
-
-✨ **Dog Breed Information System**
-- Java + API Integration  
-- DAO Pattern + JDBC  
+- REST APIs + CRUD  
+- ER Diagram + Relational Mapping  
+🔗 (Add Swagger / Live Link here)
 
 ---
 
-## 📊 GitHub Analytics
+### 🔹 MyBlogApp
+- Full Stack (Spring Boot + Thymeleaf + Security)  
+- Authentication + Admin Panel  
+🔗 (Add Live Link here)
+
+---
+
+### 🔹 Dog Breed Information System
+- Java + Public API Integration  
+- DAO Pattern + JDBC  
+🔗 (Add GitHub Repo Link here)
+
+---
+
+## 🧩 Microservices Project (Advanced)
+
+🚀 Coming Soon  
+- Spring Boot Microservices  
+- API Gateway + Service Registry  
+- Docker + Redis  
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=roshan-62013&show_icons=true&theme=tokyonight&hide_border=true"/>
@@ -102,17 +119,26 @@
 
 ---
 
-## 🔥 2026 Goals
+## 🔥 2026 Focus
 
-- 🚀 Master Microservices Architecture  
-- 📈 Improve DSA (LeetCode + GFG)  
-- 🧠 Learn System Design  
-- 💼 Get into Product-Based Company  
+- 🚀 Microservices Architecture  
+- 📈 Advanced DSA (LeetCode + GFG)  
+- 🧠 System Design  
+- 💼 Backend Developer Role  
 
 ---
 
-## 💡 Quote
+## 💡 Pro Tips (For Recruiter Impact)
+
+- ✅ Add Swagger UI link for APIs  
+- ✅ Deploy backend on Render / Railway  
+- ✅ Add project demo video (LinkedIn/GitHub)  
+- ✅ Pin top 3 projects on GitHub  
+
+---
+
+## 💬 Quote
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&color=F7B801&center=true&vCenter=true&width=600&lines=First+solve+the+problem%2C+then+write+the+code.;Keep+building+Keep+learning+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&color=F7B801&center=true&vCenter=true&width=600&lines=First+solve+the+problem%2C+then+write+the+code.;Consistency+beats+talent+🚀" />
 </p>
