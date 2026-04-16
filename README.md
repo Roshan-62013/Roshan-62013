@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">🚀 Roshan Kumar</h1>
-<h3 align="center">Java Backend Developer | Spring Boot | REST APIs | PostgreSQL</h3>
+<h3 align="center">Java Backend Developer | Spring Boot | REST APIs | MySQL | PostgreSQL</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to%20Work-YES-brightgreen?style=for-the-badge" />
