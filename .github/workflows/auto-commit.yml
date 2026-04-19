@@ -1,0 +1,49 @@
+name: 🤖 Auto-Commit Generator
+
+on:
+  schedule:
+    # Run weekly on Monday at 00:00 UTC (creates 6-7 commits over 3 days)
+    - cron: "0 0 * * 1"
+
+  workflow_dispatch:
+    # Allow manual trigger from GitHub UI
+    inputs:
+      commit_count:
+        description: "Number of commits to create (1-10)"
+        required: false
+        default: "7"
+
+permissions:
+  contents: write
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: ⚙️ Configure Git
+        run: |
+          git config --global user.name "🤖 Auto-Commit Bot"
+          git config --global user.email "auto-commit-bot@github.local"
+
+      - name: 🔧 Download & Run Auto-Commit Script
+        run: |
+          chmod +x ./scripts/auto-commit.sh
+          ./scripts/auto-commit.sh
+
+      - name: 📤 Push Changes to GitHub
+        run: |
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ✅ Workflow Complete
+        run: |
+          echo "🎉 Auto-commit workflow completed successfully!"
+          echo "📊 Commits created and pushed to repository"
+          git log --oneline -n 10
