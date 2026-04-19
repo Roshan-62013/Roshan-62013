@@ -1,10 +1,10 @@
 ```
-    ____            __               
-   / __ \____  ____/ /_  _____ ___  
+    ____            __
+   / __ \____  ____/ /_  _____ ___
   / /_/ / __ \/ ___/ __ \/ ___/ __ \
  / _, _/ /_/ (__  ) / / / /  / /_/ /
-/_/ |_|\____/____/_/ /_/_/   \____/ 
-                                    
+/_/ |_|\____/____/_/ /_/_/   \____/
+
 ```
 
 <p align="center">
@@ -95,6 +95,7 @@
 ```
 
 ### 🔹 School Management System
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  Stack: Spring Boot | PostgreSQL | REST APIs                   │
@@ -107,11 +108,13 @@
 │  ✓ Enrollment System                                           │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
 🔗 **[View Project](#)** | **[GitHub Repo](#)** | **[API Docs](#)**
 
 ---
 
 ### 🔹 MyBlogApp
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  Stack: Spring Boot | Thymeleaf | MySQL | Spring Security      │
@@ -124,11 +127,13 @@
 │  ✓ Search & Filter Functionality                               │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
 🔗 **[View Project](#)** | **[GitHub Repo](#)** | **[Live Demo](#)**
 
 ---
 
 ### 🔹 Dog Breed Information System
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  Stack: Java | Public API Integration | JDBC | DAO Pattern     │
@@ -141,6 +146,7 @@
 │  ✓ Error Handling & Validation                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
 🔗 **[View Project](#)** | **[GitHub Repo](#)**
 
 ---
@@ -170,19 +176,28 @@
 ║        API Gateway | Service Registry | Message Queues          ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
-```  
+```
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=roshan-62013&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=roshan-62013&theme=tokyonight&hide_border=true"/>
+  <a href="https://github.com/Roshan-62013">
+    <img src="https://github-readme-stats.vercel.app/api?username=Roshan-62013&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=roshan-62013&layout=compact&theme=tokyonight&hide_border=true"/>
+  <a href="https://github.com/Roshan-62013">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-62013&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Roshan-62013">
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=Roshan-62013&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
+  </a>
 </p>
 
 ---
@@ -190,7 +205,9 @@
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=roshan-62013&theme=tokyonight&no-frame=true&row=1&column=6"/>
+  <a href="https://github.com/Roshan-62013">
+    <img src="https://github-profile-trophy.vercel.app/?username=Roshan-62013&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15" alt="GitHub Trophies" />
+  </a>
 </p>
 
 ---
@@ -231,7 +248,7 @@
 ║     [████████████████░░░░░░░░░░░░░░░░░░] 55% Completed        ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
-```  
+```
 
 ---
 
@@ -252,7 +269,7 @@
 ║  ✅ Build End-to-End System Design Projects                      ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
-```  
+```
 
 ---
 
