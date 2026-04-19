@@ -1,0 +1,144 @@
+name: 📊 Update GitHub Stats
+
+on:
+  schedule:
+    # Run daily at 12:00 UTC to refresh stats
+    - cron: "0 12 * * *"
+  
+  workflow_dispatch:
+    # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 📊 Generate Stats Data
+        id: stats
+        run: |
+          # Get repository stats using GitHub API
+          RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/users/Roshan-62013")
+          
+          # Extract stats
+          REPOS=$(echo "$RESPONSE" | grep '"public_repos"' | head -1 | cut -d: -f2 | cut -d, -f1)
+          FOLLOWERS=$(echo "$RESPONSE" | grep '"followers"' | head -1 | cut -d: -f2 | cut -d, -f1)
+          FOLLOWING=$(echo "$RESPONSE" | grep '"following"' | head -1 | cut -d: -f2 | cut -d, -f1)
+          CREATED=$(echo "$RESPONSE" | grep '"created_at"' | head -1 | cut -d'"' -f4)
+          
+          # Calculate years active
+          YEAR_CREATED=$(echo "$CREATED" | cut -d'-' -f1)
+          CURRENT_YEAR=$(date +%Y)
+          YEARS=$((CURRENT_YEAR - YEAR_CREATED))
+          
+          # Output stats as GitHub environment variables
+          echo "REPOS=$REPOS" >> $GITHUB_ENV
+          echo "FOLLOWERS=$FOLLOWERS" >> $GITHUB_ENV
+          echo "FOLLOWING=$FOLLOWING" >> $GITHUB_ENV
+          echo "YEARS=$YEARS" >> $GITHUB_ENV
+          
+          # Log for verification
+          echo "📈 GitHub Stats Retrieved:"
+          echo "   Repositories: $REPOS"
+          echo "   Followers: $FOLLOWERS"
+          echo "   Following: $FOLLOWING"
+          echo "   Years on GitHub: $YEARS"
+
+      - name: 🎨 Update README with Stats
+        run: |
+          # Create stats badge markdown
+          STATS_CONTENT="<!-- Auto-generated stats - DO NOT EDIT -->
+<div align=\"center\">
+
+### 📈 Live GitHub Statistics
+
+| Metric | Count |
+|--------|-------|
+| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-${{ env.REPOS }}-blue?style=flat-square&logo=github) |
+| **Followers** | ![Followers](https://img.shields.io/badge/Followers-${{ env.FOLLOWERS }}-green?style=flat-square&logo=github) |
+| **Following** | ![Following](https://img.shields.io/badge/Following-${{ env.FOLLOWING }}-orange?style=flat-square&logo=github) |
+| **Years Active** | ![Years](https://img.shields.io/badge/Years%20Active-${{ env.YEARS }}%2B-purple?style=flat-square) |
+
+</div>
+<!-- End auto-generated stats -->"
+
+          # Backup README
+          cp README.md README.md.backup
+          
+          # Replace or insert stats section
+          if grep -q "<!-- Auto-generated stats - DO NOT EDIT -->" README.md; then
+            # Replace existing section
+            sed -i '/<!-- Auto-generated stats - DO NOT EDIT -->/,/<!-- End auto-generated stats -->/c\
+'"$(echo "$STATS_CONTENT" | sed 's/[\/&]/\\&/g')"'' README.md
+          else
+            # Insert before GitHub Statistics section if it exists
+            if grep -q "## 📊 GitHub Statistics & Contributions" README.md; then
+              sed -i '/## 📊 GitHub Statistics & Contributions/i\
+'"$(echo "$STATS_CONTENT" | sed 's/[\/&]/\\&/g' | sed 's/$/\\n/')"'' README.md
+            fi
+          fi
+          
+          echo "✅ README updated with live stats"
+
+      - name: 📝 Generate Stats Badge URLs
+        run: |
+          # Create shields.io badge URLs for stats
+          echo "🎖️ Generated Stat Badges:"
+          echo ""
+          echo "Public Repos: https://img.shields.io/badge/Repositories-${{ env.REPOS }}-blue?style=flat-square&logo=github"
+          echo "Followers: https://img.shields.io/badge/Followers-${{ env.FOLLOWERS }}-green?style=flat-square&logo=github"
+          echo "Following: https://img.shields.io/badge/Following-${{ env.FOLLOWING }}-orange?style=flat-square&logo=github"
+          echo "Years: https://img.shields.io/badge/Years%20Active-${{ env.YEARS }}%2B-purple?style=flat-square"
+
+      - name: ⚙️ Configure Git
+        run: |
+          git config --global user.name "📊 Stats Bot"
+          git config --global user.email "stats-bot@github.local"
+
+      - name: ✅ Check for Changes
+        id: check_changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✏️ Changes detected - will commit"
+          fi
+
+      - name: 📤 Commit & Push Changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git add README.md
+          git commit -m "📊 Auto-update: Refresh GitHub statistics ($(date '+%Y-%m-%d %H:%M:%S'))
+          
+          - Repositories: ${{ env.REPOS }}
+          - Followers: ${{ env.FOLLOWERS }}
+          - Following: ${{ env.FOLLOWING }}
+          - Years Active: ${{ env.YEARS }}+
+          
+          Generated by GitHub Actions Stats Bot"
+          
+          git push origin main
+          
+          echo "🚀 Stats pushed to repository!"
+
+      - name: ℹ️ Workflow Summary
+        run: |
+          echo "================================"
+          echo "📊 GitHub Stats Update Complete"
+          echo "================================"
+          echo "Last Updated: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "Repositories: ${{ env.REPOS }}"
+          echo "Followers: ${{ env.FOLLOWERS }}"
+          echo "Following: ${{ env.FOLLOWING }}"
+          echo "Years on GitHub: ${{ env.YEARS }}+"
+          echo "================================"

@@ -306,6 +306,23 @@
 
 ## 📊 GitHub Statistics & Contributions
 
+<div align="center">
+
+### 🔄 Live GitHub Statistics (Auto-Updated Daily)
+
+| 📍 Metric | 🎖️ Badge |
+|-----------|----------|
+| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-?-blue?style=flat-square&logo=github) |
+| **Followers** | ![Followers](https://img.shields.io/badge/Followers-?-green?style=flat-square&logo=github) |
+| **Following** | ![Following](https://img.shields.io/badge/Following-?-orange?style=flat-square&logo=github) |
+| **Years Active** | ![Years](https://img.shields.io/badge/Years%20Active-6%2B-purple?style=flat-square) |
+
+*✅ Auto-updated daily by GitHub Actions | [View Workflow](.github/workflows/update-stats.yml)*
+
+</div>
+
+### 📸 Visual Stats Dashboard
+
 <table align="center">
   <tr>
     <td colspan="2" align="center">
@@ -343,15 +360,15 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-| 📍 Metric | 🔗 Link | 📝 Description |
-|----------|---------|----------------|
-| **GitHub Profile** | [Roshan-62013](https://github.com/Roshan-62013) | View complete profile |
-| **All Repositories** | [View Repos](https://github.com/Roshan-62013?tab=repositories) | All projects & code |
-| **Contributions** | [2026 Graph](https://github.com/Roshan-62013?tab=contributions&from=2026-01-01&to=2026-12-31) | Contribution history |
-| **Followers** | [View Followers](https://github.com/Roshan-62013?tab=followers) | Community followers |
-| **Following** | [View Following](https://github.com/Roshan-62013?tab=following) | Following developers |
-| **Starred** | [Starred Repos](https://github.com/Roshan-62013?tab=stars) | Bookmarked projects |
-| **Gists** | [View Gists](https://gist.github.com/Roshan-62013) | Code snippets |
+| 📍 Metric            | 🔗 Link                                                                                       | 📝 Description        |
+| -------------------- | --------------------------------------------------------------------------------------------- | --------------------- |
+| **GitHub Profile**   | [Roshan-62013](https://github.com/Roshan-62013)                                               | View complete profile |
+| **All Repositories** | [View Repos](https://github.com/Roshan-62013?tab=repositories)                                | All projects & code   |
+| **Contributions**    | [2026 Graph](https://github.com/Roshan-62013?tab=contributions&from=2026-01-01&to=2026-12-31) | Contribution history  |
+| **Followers**        | [View Followers](https://github.com/Roshan-62013?tab=followers)                               | Community followers   |
+| **Following**        | [View Following](https://github.com/Roshan-62013?tab=following)                               | Following developers  |
+| **Starred**          | [Starred Repos](https://github.com/Roshan-62013?tab=stars)                                    | Bookmarked projects   |
+| **Gists**            | [View Gists](https://gist.github.com/Roshan-62013)                                            | Code snippets         |
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -397,6 +414,7 @@ https://github-readme-stats.vercel.app/api?username=Roshan-62013&show_icons=true
 ```
 
 Visit: https://github.com/Roshan-62013
+
 </details>
 
 <details>
@@ -407,6 +425,7 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-62013&layo
 ```
 
 Visit: https://github.com/Roshan-62013?tab=repositories
+
 </details>
 
 <details>
@@ -417,6 +436,7 @@ https://streak-stats.demolab.com?user=Roshan-62013&theme=tokyonight
 ```
 
 Visit: https://github.com/Roshan-62013?tab=contributions
+
 </details>
 
 <details>
@@ -427,6 +447,7 @@ https://github-readme-activity-graph.vercel.app/graph?username=Roshan-62013&them
 ```
 
 Visit: https://github.com/Roshan-62013
+
 </details>
 
 ---
