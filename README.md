@@ -1,3 +1,12 @@
+```
+    ____            __               
+   / __ \____  ____/ /_  _____ ___  
+  / /_/ / __ \/ ___/ __ \/ ___/ __ \
+ / _, _/ /_/ (__  ) / / / /  / /_/ /
+/_/ |_|\____/____/_/ /_/_/   \____/ 
+                                    
+```
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Roshan+Kumar;Java+Backend+Developer;Spring+Boot+%7C+REST+API+%7C+PostgreSQL;Building+Scalable+Backend+Systems+🚀;Open+to+Work+💼" />
 </p>
@@ -43,6 +52,34 @@
 
 ## 🚀 Tech Stack
 
+```
+╔════════════════════════════════════════════════════════════════╗
+║         BACKEND TECHNOLOGIES & TOOLS                          ║
+╚════════════════════════════════════════════════════════════════╝
+
+┌─ LANGUAGES ──────────────────────────────────────────────────┐
+│  ▓▓▓▓▓▓▓▓▓ 90% Java      ▓▓▓▓▓▓▓▓ 85% JavaScript           │
+│  ▓▓▓▓▓▓▓ 80% SQL        ▓▓▓ 35% HTML/CSS                  │
+└──────────────────────────────────────────────────────────────┘
+
+┌─ FRAMEWORKS ─────────────────────────────────────────────────┐
+│  ✓ Spring Boot          ✓ Spring Data JPA                   │
+│  ✓ Spring Security      ✓ Hibernate ORM                     │
+│  ✓ Node.js              ✓ Express.js                        │
+└──────────────────────────────────────────────────────────────┘
+
+┌─ DATABASES ──────────────────────────────────────────────────┐
+│  ✓ PostgreSQL           ✓ MySQL                             │
+│  ✓ JDBC                 ✓ JPQL & SQL Queries               │
+└──────────────────────────────────────────────────────────────┘
+
+┌─ TOOLS & PLATFORMS ──────────────────────────────────────────┐
+│  ✓ Git & GitHub         ✓ Linux/Windows                     │
+│  ✓ Maven/Gradle         ✓ Postman API Testing               │
+│  ✓ VS Code              ✓ IntelliJ IDEA                     │
+└──────────────────────────────────────────────────────────────┘
+```
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,js,html,css,nodejs,git,github" />
 </p>
@@ -51,34 +88,89 @@
 
 ## 📂 Featured Projects
 
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                  🏆 PORTFOLIO PROJECTS                            ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
+
 ### 🔹 School Management System
-- Spring Boot + PostgreSQL  
-- REST APIs + CRUD  
-- ER Diagram + Relational Mapping  
-🔗 (Add Swagger / Live Link here)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Stack: Spring Boot | PostgreSQL | REST APIs                   │
+│  ────────────────────────────────────────────────────────────   │
+│  ✓ Complete CRUD Operations                                    │
+│  ✓ Entity Relationship Diagram (ERD)                           │
+│  ✓ Relational Database Design                                  │
+│  ✓ RESTful API Endpoints                                       │
+│  ✓ Student & Course Management                                 │
+│  ✓ Enrollment System                                           │
+└─────────────────────────────────────────────────────────────────┘
+```
+🔗 **[View Project](#)** | **[GitHub Repo](#)** | **[API Docs](#)**
 
 ---
 
 ### 🔹 MyBlogApp
-- Full Stack (Spring Boot + Thymeleaf + Security)  
-- Authentication + Admin Panel  
-🔗 (Add Live Link here)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Stack: Spring Boot | Thymeleaf | MySQL | Spring Security      │
+│  ────────────────────────────────────────────────────────────   │
+│  ✓ Full Stack Web Application                                  │
+│  ✓ User Authentication & Authorization                         │
+│  ✓ Blog Post CRUD Operations                                   │
+│  ✓ Admin Dashboard                                             │
+│  ✓ Comment & Rating System                                     │
+│  ✓ Search & Filter Functionality                               │
+└─────────────────────────────────────────────────────────────────┘
+```
+🔗 **[View Project](#)** | **[GitHub Repo](#)** | **[Live Demo](#)**
 
 ---
 
 ### 🔹 Dog Breed Information System
-- Java + Public API Integration  
-- DAO Pattern + JDBC  
-🔗 (Add GitHub Repo Link here)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Stack: Java | Public API Integration | JDBC | DAO Pattern     │
+│  ────────────────────────────────────────────────────────────   │
+│  ✓ RESTful API Integration                                      │
+│  ✓ Data Access Object (DAO) Pattern                            │
+│  ✓ JDBC Database Operations                                    │
+│  ✓ Breed Information Lookup                                    │
+│  ✓ Image Display & Filtering                                   │
+│  ✓ Error Handling & Validation                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+🔗 **[View Project](#)** | **[GitHub Repo](#)**
 
 ---
 
 ## 🧩 Microservices Project (Advanced)
 
-🚀 Coming Soon  
-- Spring Boot Microservices  
-- API Gateway + Service Registry  
-- Docker + Redis  
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                  🚀 COMING SOON!                                 ║
+╠═══════════════════════════════════════════════════════════════════╣
+║                                                                   ║
+║  ┌─────────────────────────────────────────────────────────────┐ ║
+║  │  [User Service]      [Order Service]      [Payment Service] │ ║
+║  │         │                   │                     │          │ ║
+║  │         └───────────────────┼─────────────────────┘          │ ║
+║  │                             │                                │ ║
+║  │                       [API Gateway]                          │ ║
+║  │                             │                                │ ║
+║  │         ┌───────────────────┼─────────────────────┐          │ ║
+║  │         │                   │                     │          │ ║
+║  │  [Service Registry]    [Config Server]   [Message Queue]   │ ║
+║  │                                                              │ ║
+║  │          🐳 Docker Containers   🔴 Redis Cache             │ ║
+║  └─────────────────────────────────────────────────────────────┘ ║
+║                                                                   ║
+║  Tech: Spring Boot | Microservices | Docker | Kubernetes       ║
+║        API Gateway | Service Registry | Message Queues          ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+```  
 
 ---
 
@@ -121,19 +213,46 @@
 
 ## 🔥 2026 Focus
 
-- 🚀 Microservices Architecture  
-- 📈 Advanced DSA (LeetCode + GFG)  
-- 🧠 System Design  
-- 💼 Backend Developer Role  
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                  📈 LEARNING ROADMAP 2026                         ║
+╠═══════════════════════════════════════════════════════════════════╣
+║                                                                   ║
+║  Q1: Microservices Architecture → Q2: Advanced System Design    ║
+║                                                                   ║
+║  🎯 Goals:                                                       ║
+║     • Master Microservices & Distributed Systems                ║
+║     • 500+ LeetCode DSA Problems (Currently 300+)               ║
+║     • Deploy 2 Production-Ready Microservices                   ║
+║     • Achieve Product-Based Company Role                        ║
+║     • Deep dive into System Design Patterns                     ║
+║                                                                   ║
+║  📊 Progress Tracking:                                           ║
+║     [████████████████░░░░░░░░░░░░░░░░░░] 55% Completed        ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+```  
 
 ---
 
 ## 💡 Pro Tips (For Recruiter Impact)
 
-- ✅ Add Swagger UI link for APIs  
-- ✅ Deploy backend on Render / Railway  
-- ✅ Add project demo video (LinkedIn/GitHub)  
-- ✅ Pin top 3 projects on GitHub  
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║              ⭐ RECRUITMENT STRATEGY CHECKLIST                    ║
+╠═══════════════════════════════════════════════════════════════════╣
+║                                                                   ║
+║  ✅ Add Swagger UI & Live API Documentation                      ║
+║  ✅ Deploy Backend on Render / Railway / AWS                     ║
+║  ✅ Create Project Demo Videos (LinkedIn/YouTube)                ║
+║  ✅ Pin Top 3 Projects on GitHub Profile                         ║
+║  ✅ Add Architecture Diagrams to README                          ║
+║  ✅ Write Clean, Well-Commented Code                             ║
+║  ✅ Maintain Active Contribution Streak                          ║
+║  ✅ Build End-to-End System Design Projects                      ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+```  
 
 ---
 
@@ -142,3 +261,48 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&color=F7B801&center=true&vCenter=true&width=600&lines=First+solve+the+problem%2C+then+write+the+code.;Consistency+beats+talent+🚀" />
 </p>
+
+---
+
+## 🎯 Final Thoughts
+
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║    "Code today, Lead tomorrow"                                   ║
+║                                                                   ║
+║    Every line of code written is a step closer to mastery.      ║
+║    Let's build something amazing together! 🚀                    ║
+║                                                                   ║
+║    Thank you for visiting my profile!                            ║
+║    Feel free to reach out for collaborations or opportunities.   ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+    ███████╗██╗   ██╗ ██████╗ ██████╗███████╗███████╗███████╗
+    ██╔════╝██║   ██║██╔════╝██╔════╝██╔════╝██╔════╝██╔════╝
+    ███████╗██║   ██║██║     ██║     █████╗  ███████╗███████╗
+    ╚════██║██║   ██║██║     ██║     ██╔══╝  ╚════██║╚════██║
+    ███████║╚██████╔╝╚██████╗╚██████╗███████╗███████║███████║
+    ╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝╚══════╝╚══════╝╚══════╝
+```
+
+---
+
+<p align="center">
+  <strong>⭐ If you find my profile helpful, consider giving it a star! ⭐</strong>
+  <br><br>
+  <a href="https://github.com/roshaniist">
+    <img src="https://img.shields.io/badge/Follow%20on%20GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:kumarroshan62013@gmail.com">
+    <img src="https://img.shields.io/badge/Get%20in%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║  Last Updated: 2026 | Backend Developer | Always Learning 📚    ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
