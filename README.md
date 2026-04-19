@@ -310,14 +310,14 @@
 
 ### 🔄 Live GitHub Statistics (Auto-Updated Daily)
 
-| 📍 Metric | 🎖️ Badge |
-|-----------|----------|
-| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-?-blue?style=flat-square&logo=github) |
-| **Followers** | ![Followers](https://img.shields.io/badge/Followers-?-green?style=flat-square&logo=github) |
-| **Following** | ![Following](https://img.shields.io/badge/Following-?-orange?style=flat-square&logo=github) |
-| **Years Active** | ![Years](https://img.shields.io/badge/Years%20Active-6%2B-purple?style=flat-square) |
+| 📍 Metric               | 🎖️ Badge                                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------------------- |
+| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-?-blue?style=flat-square&logo=github)    |
+| **Followers**           | ![Followers](https://img.shields.io/badge/Followers-?-green?style=flat-square&logo=github)  |
+| **Following**           | ![Following](https://img.shields.io/badge/Following-?-orange?style=flat-square&logo=github) |
+| **Years Active**        | ![Years](https://img.shields.io/badge/Years%20Active-6%2B-purple?style=flat-square)         |
 
-*✅ Auto-updated daily by GitHub Actions | [View Workflow](.github/workflows/update-stats.yml)*
+_✅ Auto-updated daily by GitHub Actions | [View Workflow](.github/workflows/update-stats.yml)_
 
 </div>
 
@@ -599,7 +599,7 @@ Visit: https://github.com/Roshan-62013
 
 ---
 
-## � Alternative Stats Dashboard
+## 📋 Alternative Stats Dashboard
 
 If the above stats are not loading, you can view them directly:
 

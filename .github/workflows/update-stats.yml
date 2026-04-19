@@ -53,62 +53,44 @@ jobs:
           echo "   Years on GitHub: $YEARS"
 
       - name: 🎨 Update README with Stats
-        env:
-          REPOS: ${{ env.REPOS }}
-          FOLLOWERS: ${{ env.FOLLOWERS }}
-          FOLLOWING: ${{ env.FOLLOWING }}
-          YEARS: ${{ env.YEARS }}
         run: |
-          # Use Python for reliable file manipulation
-          python3 << 'EOF'
-          import os
+          # Create temporary file with updated stats
+          REPOS=${{ env.REPOS }}
+          FOLLOWERS=${{ env.FOLLOWERS }}
+          FOLLOWING=${{ env.FOLLOWING }}
+          YEARS=${{ env.YEARS }}
           
-          repos = os.getenv('REPOS', '?')
-          followers = os.getenv('FOLLOWERS', '?')
-          following = os.getenv('FOLLOWING', '?')
-          years = os.getenv('YEARS', '6')
-          
-          # Read README
-          with open('README.md', 'r', encoding='utf-8') as f:
-              content = f.read()
-          
-          # Create new stats badge section
-          stats_section = f"""### 🔄 Live GitHub Statistics (Auto-Updated Daily)
+          # Create new stats section using sed/awk (more reliable in CI/CD)
+          cat > /tmp/stats_update.txt << STATS_EOF
+          ### 🔄 Live GitHub Statistics (Auto-Updated Daily)
 
 | 📍 Metric | 🎖️ Badge |
 |-----------|----------|
-| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-{repos}-blue?style=flat-square&logo=github) |
-| **Followers** | ![Followers](https://img.shields.io/badge/Followers-{followers}-green?style=flat-square&logo=github) |
-| **Following** | ![Following](https://img.shields.io/badge/Following-{following}-orange?style=flat-square&logo=github) |
-| **Years Active** | ![Years](https://img.shields.io/badge/Years%20Active-{years}%2B-purple?style=flat-square) |
+| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-${REPOS}-blue?style=flat-square&logo=github) |
+| **Followers** | ![Followers](https://img.shields.io/badge/Followers-${FOLLOWERS}-green?style=flat-square&logo=github) |
+| **Following** | ![Following](https://img.shields.io/badge/Following-${FOLLOWING}-orange?style=flat-square&logo=github) |
+| **Years Active** | ![Years](https://img.shields.io/badge/Years%20Active-${YEARS}%2B-purple?style=flat-square) |
 
 *✅ Auto-updated daily by GitHub Actions | [View Workflow](.github/workflows/update-stats.yml)*
+STATS_EOF
 
-"""
+          # Backup original README
+          cp README.md README.md.backup
           
-          # Find and replace the stats section (simple marker-based approach)
-          marker_start = "### 🔄 Live GitHub Statistics (Auto-Updated Daily)"
-          marker_end = "### 📸 Visual Stats Dashboard"
+          # Extract sections: before stats, stats section, after stats
+          sed -n '1,/### 🔄 Live GitHub Statistics/p' README.md | head -n -1 > /tmp/readme_before.txt
+          sed -n '/### 📸 Visual Stats Dashboard/,$p' README.md > /tmp/readme_after.txt
           
-          if marker_start in content and marker_end in content:
-              start_idx = content.find(marker_start)
-              end_idx = content.find(marker_end)
-              if start_idx != -1 and end_idx != -1:
-                  content = content[:start_idx] + stats_section + content[end_idx:]
-                  print("✅ Updated existing stats section")
-              else:
-                  print("⚠️  Could not locate stat markers")
-          else:
-              print("⚠️  Stats markers not found, skipping update")
+          # Combine: before + new stats + after
+          cat /tmp/readme_before.txt /tmp/stats_update.txt /tmp/readme_after.txt > README.md.new
+          mv README.md.new README.md
           
-          # Write updated README
-          with open('README.md', 'w', encoding='utf-8') as f:
-              f.write(content)
-          
-          print("📝 README updated successfully!")
-          EOF
-          
-          echo "✅ Stats section updated with live data"
+          echo "✅ README updated with live stats!"
+          echo "📊 Stats Updated:"
+          echo "   Repos: ${REPOS}"
+          echo "   Followers: ${FOLLOWERS}"
+          echo "   Following: ${FOLLOWING}"
+          echo "   Years: ${YEARS}"
 
       - name: 📝 Generate Stats Badge URLs
         run: |
