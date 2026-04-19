@@ -53,40 +53,62 @@ jobs:
           echo "   Years on GitHub: $YEARS"
 
       - name: 🎨 Update README with Stats
+        env:
+          REPOS: ${{ env.REPOS }}
+          FOLLOWERS: ${{ env.FOLLOWERS }}
+          FOLLOWING: ${{ env.FOLLOWING }}
+          YEARS: ${{ env.YEARS }}
         run: |
-          # Create stats badge markdown
-          STATS_CONTENT="<!-- Auto-generated stats - DO NOT EDIT -->
-<div align=\"center\">
-
-### 📈 Live GitHub Statistics
-
-| Metric | Count |
-|--------|-------|
-| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-${{ env.REPOS }}-blue?style=flat-square&logo=github) |
-| **Followers** | ![Followers](https://img.shields.io/badge/Followers-${{ env.FOLLOWERS }}-green?style=flat-square&logo=github) |
-| **Following** | ![Following](https://img.shields.io/badge/Following-${{ env.FOLLOWING }}-orange?style=flat-square&logo=github) |
-| **Years Active** | ![Years](https://img.shields.io/badge/Years%20Active-${{ env.YEARS }}%2B-purple?style=flat-square) |
-
-</div>
-<!-- End auto-generated stats -->"
-
-          # Backup README
-          cp README.md README.md.backup
+          # Use Python for reliable file manipulation
+          python3 << 'EOF'
+          import os
           
-          # Replace or insert stats section
-          if grep -q "<!-- Auto-generated stats - DO NOT EDIT -->" README.md; then
-            # Replace existing section
-            sed -i '/<!-- Auto-generated stats - DO NOT EDIT -->/,/<!-- End auto-generated stats -->/c\
-'"$(echo "$STATS_CONTENT" | sed 's/[\/&]/\\&/g')"'' README.md
-          else
-            # Insert before GitHub Statistics section if it exists
-            if grep -q "## 📊 GitHub Statistics & Contributions" README.md; then
-              sed -i '/## 📊 GitHub Statistics & Contributions/i\
-'"$(echo "$STATS_CONTENT" | sed 's/[\/&]/\\&/g' | sed 's/$/\\n/')"'' README.md
-            fi
-          fi
+          repos = os.getenv('REPOS', '?')
+          followers = os.getenv('FOLLOWERS', '?')
+          following = os.getenv('FOLLOWING', '?')
+          years = os.getenv('YEARS', '6')
           
-          echo "✅ README updated with live stats"
+          # Read README
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          
+          # Create new stats badge section
+          stats_section = f"""### 🔄 Live GitHub Statistics (Auto-Updated Daily)
+
+| 📍 Metric | 🎖️ Badge |
+|-----------|----------|
+| **Public Repositories** | ![Repos](https://img.shields.io/badge/Repositories-{repos}-blue?style=flat-square&logo=github) |
+| **Followers** | ![Followers](https://img.shields.io/badge/Followers-{followers}-green?style=flat-square&logo=github) |
+| **Following** | ![Following](https://img.shields.io/badge/Following-{following}-orange?style=flat-square&logo=github) |
+| **Years Active** | ![Years](https://img.shields.io/badge/Years%20Active-{years}%2B-purple?style=flat-square) |
+
+*✅ Auto-updated daily by GitHub Actions | [View Workflow](.github/workflows/update-stats.yml)*
+
+"""
+          
+          # Find and replace the stats section (simple marker-based approach)
+          marker_start = "### 🔄 Live GitHub Statistics (Auto-Updated Daily)"
+          marker_end = "### 📸 Visual Stats Dashboard"
+          
+          if marker_start in content and marker_end in content:
+              start_idx = content.find(marker_start)
+              end_idx = content.find(marker_end)
+              if start_idx != -1 and end_idx != -1:
+                  content = content[:start_idx] + stats_section + content[end_idx:]
+                  print("✅ Updated existing stats section")
+              else:
+                  print("⚠️  Could not locate stat markers")
+          else:
+              print("⚠️  Stats markers not found, skipping update")
+          
+          # Write updated README
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(content)
+          
+          print("📝 README updated successfully!")
+          EOF
+          
+          echo "✅ Stats section updated with live data"
 
       - name: 📝 Generate Stats Badge URLs
         run: |
