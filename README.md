@@ -304,35 +304,61 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Statistics & Contributions
 
-<p align="center">
-  <a href="https://github.com/Roshan-62013">
-    <img src="https://github-readme-stats.vercel.app/api?username=Roshan-62013&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/Roshan-62013">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-62013&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </a>
-</p>
+### Primary Stats
 
-<p align="center">
-  <a href="https://github.com/Roshan-62013">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Roshan-62013&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
-  </a>
-</p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Roshan-62013&show_icons=true&theme=tokyonight&hide_border=false&hide=issues&count_private=true&include_all_commits=true&cache_seconds=1800)](https://github.com/Roshan-62013)
+
+### Top Languages
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-62013&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=1800&langs_count=10)](https://github.com/Roshan-62013)
+
+### Contribution Streak
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Roshan-62013&theme=tokyonight&hide_border=false)](https://github.com/Roshan-62013)
+
+### Activity Graph
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Roshan-62013&theme=tokyo-night&hide_border=true)
+
+### Trophy Showcase
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Roshan-62013&theme=tokyonight&no-frame=false&row=2&column=4&margin-w=15&margin-h=15)](https://github.com/Roshan-62013)
+
+### GitHub Profile Card
+
+![GitHub Profile Card](https://cards.github.io/?username=Roshan-62013&theme=dark)
+
+### Quick Stats
+
+- **Repositories**: Visit [GitHub Profile](https://github.com/Roshan-62013)
+- **Followers**: [Check here](https://github.com/Roshan-62013?tab=followers)
+- **Following**: [See connections](https://github.com/Roshan-62013?tab=following)
+
+</div>
 
 ---
 
-## 🏆 Achievements
+## 🏆 Achievements & Recognition
 
-<p align="center">
-  <a href="https://github.com/Roshan-62013">
-    <img src="https://github-profile-trophy.vercel.app/?username=Roshan-62013&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15" alt="GitHub Trophies" />
-  </a>
-</p>
+<div align="center">
+
+### GitHub Achievements
+
+- 🎖️ [View GitHub Trophies](https://github.com/Roshan-62013)
+- ⭐ [Profile Stats](https://github.com/Roshan-62013)
+- 📈 [Contribution Graph](https://github.com/Roshan-62013)
+
+### Coding Platforms
+
+- 🟢 **GeeksforGeeks**: [300+ DSA Problems](https://www.geeksforgeeks.org/profile/kumarroshan62013)
+- 🔴 **LeetCode**: [Advanced Problem Solver](https://leetcode.com/u/roshan_62013/)
+- ⭐ **GitHub**: [Backend Projects](https://github.com/Roshan-62013)
+
+</div>
 
 ---
 
@@ -463,10 +489,30 @@
 
 ---
 
+## � Alternative Stats Dashboard
+
+If the above stats are not loading, you can view them directly:
+
+| Metric | Link |
+|--------|------|
+| **GitHub Profile** | [Roshan-62013](https://github.com/Roshan-62013) |
+| **Repositories** | [View All Repos](https://github.com/Roshan-62013?tab=repositories) |
+| **Contributions** | [2026 Graph](https://github.com/Roshan-62013?tab=contributions&from=2026-01-01&to=2026-12-31) |
+| **LeetCode** | [300+ Problems Solved](https://leetcode.com/u/roshan_62013/) |
+| **GeeksforGeeks** | [DSA Solutions](https://www.geeksforgeeks.org/profile/kumarroshan62013) |
+| **Followers** | [View](https://github.com/Roshan-62013?tab=followers) |
+| **Following** | [View](https://github.com/Roshan-62013?tab=following) |
+
+### Direct GitHub Stats URLs
+- **Stats API**: `https://api.github.com/users/Roshan-62013`
+- **Repos API**: `https://api.github.com/users/Roshan-62013/repos`
+
+---
+
 ## 💬 Quote
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=4000&color=F7B801&center=true&vCenter=true&width=600&lines=First+solve+the+problem%2C+then+write+the+code.;Consistency+beats+talent+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=20&duration=4000&color=FFD700&center=true&vCenter=true&width=700&lines=First+solve+the+problem;then+write+the+code.;Consistency+beats+talent;Always+learn+and+improve" />
 </p>
 
 ---
