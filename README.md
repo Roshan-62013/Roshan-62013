@@ -306,39 +306,128 @@
 
 ## 📊 GitHub Statistics & Contributions
 
-<div align="center">
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <h3>GitHub Profile Analytics</h3>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=Roshan-62013&show_icons=true&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" width="400"/>
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-62013&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://streak-stats.demolab.com?user=Roshan-62013&theme=tokyonight&hide_border=false" alt="GitHub Streak" width="800"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Roshan-62013&theme=tokyo-night&hide_border=true&bg_color=1a1b27" alt="GitHub Activity Graph" width="800"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-profile-trophy.vercel.app/?username=Roshan-62013&theme=tokyonight&no-frame=false&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" width="800"/>
+    </td>
+  </tr>
+</table>
 
-### Primary Stats
+### 📈 Direct GitHub Links (Always Working)
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Roshan-62013&show_icons=true&theme=tokyonight&hide_border=false&hide=issues&count_private=true&include_all_commits=true&cache_seconds=1800)](https://github.com/Roshan-62013)
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
-### Top Languages
+| 📍 Metric | 🔗 Link | 📝 Description |
+|----------|---------|----------------|
+| **GitHub Profile** | [Roshan-62013](https://github.com/Roshan-62013) | View complete profile |
+| **All Repositories** | [View Repos](https://github.com/Roshan-62013?tab=repositories) | All projects & code |
+| **Contributions** | [2026 Graph](https://github.com/Roshan-62013?tab=contributions&from=2026-01-01&to=2026-12-31) | Contribution history |
+| **Followers** | [View Followers](https://github.com/Roshan-62013?tab=followers) | Community followers |
+| **Following** | [View Following](https://github.com/Roshan-62013?tab=following) | Following developers |
+| **Starred** | [Starred Repos](https://github.com/Roshan-62013?tab=stars) | Bookmarked projects |
+| **Gists** | [View Gists](https://gist.github.com/Roshan-62013) | Code snippets |
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-62013&layout=compact&theme=tokyonight&hide_border=false&cache_seconds=1800&langs_count=10)](https://github.com/Roshan-62013)
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
-### Contribution Streak
+### 🎯 Quick Stats Overview
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Roshan-62013&theme=tokyonight&hide_border=false)](https://github.com/Roshan-62013)
+```
+╔═════════════════════════════════════════════════════════════════╗
+║                     GITHUB PRESENCE SUMMARY                    ║
+╠═════════════════════════════════════════════════════════════════╣
+║                                                                 ║
+║  Username: Roshan-62013                                         ║
+║  Profile: https://github.com/Roshan-62013                      ║
+║  Location: India                                                ║
+║  Focus: Java Backend Development | Spring Boot | Microservices ║
+║                                                                 ║
+║  Primary Projects:                                              ║
+║  • School Management System (Spring Boot + PostgreSQL)         ║
+║  • MyBlogApp (Full-Stack with Spring Security)                 ║
+║  • Dog Breed Information System (Java + JDBC + DAO)            ║
+║                                                                 ║
+║  Coding Platforms:                                              ║
+║  • LeetCode: 300+ Problems Solved                              ║
+║  • GeeksforGeeks: 300+ DSA Problems                            ║
+║  • GitHub: Active contributor                                  ║
+║                                                                 ║
+║  Skills: Java | Spring Boot | REST APIs | PostgreSQL | MySQL   ║
+║          Microservices | System Design | Clean Architecture    ║
+║                                                                 ║
+╚═════════════════════════════════════════════════════════════════╝
+```
 
-### Activity Graph
+### 🔄 Alternative Stats Services
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Roshan-62013&theme=tokyo-night&hide_border=true)
+If images above don't load, try these direct services:
 
-### Trophy Showcase
+<details>
+<summary><b>📱 GitHub Stats (Click to expand)</b></summary>
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Roshan-62013&theme=tokyonight&no-frame=false&row=2&column=4&margin-w=15&margin-h=15)](https://github.com/Roshan-62013)
+```
+https://github-readme-stats.vercel.app/api?username=Roshan-62013&show_icons=true&theme=tokyonight
+```
 
-### GitHub Profile Card
+Visit: https://github.com/Roshan-62013
+</details>
 
-![GitHub Profile Card](https://cards.github.io/?username=Roshan-62013&theme=dark)
+<details>
+<summary><b>🗣️ Top Languages (Click to expand)</b></summary>
 
-### Quick Stats
+```
+https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-62013&layout=compact&theme=tokyonight
+```
 
-- **Repositories**: Visit [GitHub Profile](https://github.com/Roshan-62013)
-- **Followers**: [Check here](https://github.com/Roshan-62013?tab=followers)
-- **Following**: [See connections](https://github.com/Roshan-62013?tab=following)
+Visit: https://github.com/Roshan-62013?tab=repositories
+</details>
 
-</div>
+<details>
+<summary><b>🔥 Contribution Streak (Click to expand)</b></summary>
+
+```
+https://streak-stats.demolab.com?user=Roshan-62013&theme=tokyonight
+```
+
+Visit: https://github.com/Roshan-62013?tab=contributions
+</details>
+
+<details>
+<summary><b>📊 Activity Graph (Click to expand)</b></summary>
+
+```
+https://github-readme-activity-graph.vercel.app/graph?username=Roshan-62013&theme=tokyo-night
+```
+
+Visit: https://github.com/Roshan-62013
+</details>
 
 ---
 
@@ -493,17 +582,18 @@
 
 If the above stats are not loading, you can view them directly:
 
-| Metric | Link |
-|--------|------|
-| **GitHub Profile** | [Roshan-62013](https://github.com/Roshan-62013) |
-| **Repositories** | [View All Repos](https://github.com/Roshan-62013?tab=repositories) |
-| **Contributions** | [2026 Graph](https://github.com/Roshan-62013?tab=contributions&from=2026-01-01&to=2026-12-31) |
-| **LeetCode** | [300+ Problems Solved](https://leetcode.com/u/roshan_62013/) |
-| **GeeksforGeeks** | [DSA Solutions](https://www.geeksforgeeks.org/profile/kumarroshan62013) |
-| **Followers** | [View](https://github.com/Roshan-62013?tab=followers) |
-| **Following** | [View](https://github.com/Roshan-62013?tab=following) |
+| Metric             | Link                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------- |
+| **GitHub Profile** | [Roshan-62013](https://github.com/Roshan-62013)                                               |
+| **Repositories**   | [View All Repos](https://github.com/Roshan-62013?tab=repositories)                            |
+| **Contributions**  | [2026 Graph](https://github.com/Roshan-62013?tab=contributions&from=2026-01-01&to=2026-12-31) |
+| **LeetCode**       | [300+ Problems Solved](https://leetcode.com/u/roshan_62013/)                                  |
+| **GeeksforGeeks**  | [DSA Solutions](https://www.geeksforgeeks.org/profile/kumarroshan62013)                       |
+| **Followers**      | [View](https://github.com/Roshan-62013?tab=followers)                                         |
+| **Following**      | [View](https://github.com/Roshan-62013?tab=following)                                         |
 
 ### Direct GitHub Stats URLs
+
 - **Stats API**: `https://api.github.com/users/Roshan-62013`
 - **Repos API**: `https://api.github.com/users/Roshan-62013/repos`
 
