@@ -1,36 +1,62 @@
 ```
-    ____            __
-   / __ \____  ____/ /_  _____ ___
-  / /_/ / __ \/ ___/ __ \/ ___/ __ \
- / _, _/ /_/ (__  ) / / / /  / /_/ /
-/_/ |_|\____/____/_/ /_/_/   \____/
-
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║           🔴  R  O  S  H  A  N    K  U  M  A  R  🔴              ║
+║                                                                   ║
+║              ⚡ JAVA BACKEND ARCHITECT & DEVELOPER ⚡             ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
 ```
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Roshan+Kumar;Java+Backend+Developer;Spring+Boot+%7C+REST+API+%7C+PostgreSQL;Building+Scalable+Backend+Systems+🚀;Open+to+Work+💼" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=28&duration=2500&pause=500&color=FF6B6B&center=true&vCenter=true&width=900&lines=ROSHAN+KUMAR;Java+Backend+Developer;Spring+Boot+Microservices+Architect;Building+Production-Ready+Backend+Systems;Passionate+About+Clean+Code+%26+Architecture" />
 </p>
 
-<h1 align="center">🚀 Roshan Kumar</h1>
-<h3 align="center">Java Backend Developer | Spring Boot | REST APIs | MySQL | PostgreSQL</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to%20Work-YES-brightgreen?style=for-the-badge" />
-  <img src="https://komarev.com/ghpvc/?username=roshan-62013&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
-</p>
+### 🎯 Backend Developer | Spring Boot Expert | REST API Architect
 
----
+![Open to Work](https://img.shields.io/badge/🎯_Open_to_Work-Product_Based-brightgreen?style=flat-square&labelColor=1f6feb&color=238636)
+![Profile Views](https://komarev.com/ghpvc/?username=roshan-62013&label=Profile%20Views&color=blueviolet&style=flat-square)
+![Java](https://img.shields.io/badge/Core-Java-orange?style=flat-square)
+![Spring Boot](https://img.shields.io/badge/Framework-Spring%20Boot-success?style=flat-square)
 
-<img align="right" alt="coding" width="380" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif">
+## </div>
 
-## 👨‍💻 About Me
+## 👨‍💻 About Me - Java Backend Specialist
 
-- 💻 Java Backend Developer (Spring Boot)
-- 🔥 Solved **300+ DSA problems**
-- ⚡ Strong in **REST APIs, JDBC, Hibernate, JPA**
-- 🧠 Good understanding of **Database Design & Backend Architecture**
-- 🌱 Learning **Microservices & System Design**
-- 🎯 Target: Product-Based Company
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                  PROFESSIONAL PROFILE                            ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
+
+> **Passionate Java Backend Developer** crafting scalable, high-performance microservices and REST APIs.
+> Specialized in Spring Boot ecosystem with deep expertise in database design, system architecture, and clean code principles.
+> **Target**: Securing a product-based company role to contribute to enterprise-level backend systems.
+
+### 💡 Core Competencies
+
+**Java Backend Development**
+
+- 🏗️ **Architecture**: Microservices, REST APIs, Clean Architecture, N-Tier Architecture
+- 🔧 **Frameworks**: Spring Boot, Spring MVC, Spring Data JPA, Spring Security
+- 📊 **Databases**: PostgreSQL, MySQL, JDBC, Hibernate ORM, JPA/JPQL, Database Design
+- 🔌 **APIs**: RESTful Web Services, API Design Patterns, Request/Response Handling
+
+**Advanced Skills**
+
+- 🔐 Authentication & Authorization (Spring Security)
+- 💾 Data Persistence (Hibernate, JPA, SQL Optimization)
+- 🏃 Performance Optimization & Caching
+- 🧪 Unit Testing & Integration Testing
+
+**Achievements**
+
+- ✅ Solved **300+ DSA problems** (LeetCode + GeeksforGeeks)
+- ✅ Expert-level understanding of Backend Architecture
+- ✅ Proficient in Database Design & SQL Optimization
+- ✅ Strong OOP & Design Patterns knowledge
 
 ---
 
@@ -50,108 +76,206 @@
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 Tech Stack - Java Backend Expertise
 
 ```
-╔════════════════════════════════════════════════════════════════╗
-║         BACKEND TECHNOLOGIES & TOOLS                          ║
-╚════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════╗
+║           JAVA BACKEND TECHNOLOGY ECOSYSTEM                       ║
+╚════════════════════════════════════════════════════════════════════╝
 
-┌─ LANGUAGES ──────────────────────────────────────────────────┐
-│  ▓▓▓▓▓▓▓▓▓ 90% Java      ▓▓▓▓▓▓▓▓ 85% JavaScript           │
-│  ▓▓▓▓▓▓▓ 80% SQL        ▓▓▓ 35% HTML/CSS                  │
-└──────────────────────────────────────────────────────────────┘
+┌─ CORE LANGUAGE ──────────────────────────────────────────────────┐
+│  ⭐⭐⭐⭐⭐ Java (Advanced)    Core Language (OOP, Multithreading)  │
+│  ▓▓▓▓▓▓▓▓▓ 90% Proficiency   Production-Ready Backend Systems    │
+└──────────────────────────────────────────────────────────────────┘
 
-┌─ FRAMEWORKS ─────────────────────────────────────────────────┐
-│  ✓ Spring Boot          ✓ Spring Data JPA                   │
-│  ✓ Spring Security      ✓ Hibernate ORM                     │
-│  ✓ Node.js              ✓ Express.js                        │
-└──────────────────────────────────────────────────────────────┘
+┌─ SPRING ECOSYSTEM ───────────────────────────────────────────────┐
+│  ✓ Spring Boot 2.x/3.x          ✓ Spring Data JPA                │
+│  ✓ Spring MVC & Annotations     ✓ Spring Security (OAuth2/JWT)   │
+│  ✓ Spring Cloud Basics          ✓ Spring Test Framework          │
+│  ✓ Spring Actuator              ✓ Spring AOP                     │
+└──────────────────────────────────────────────────────────────────┘
 
-┌─ DATABASES ──────────────────────────────────────────────────┐
-│  ✓ PostgreSQL           ✓ MySQL                             │
-│  ✓ JDBC                 ✓ JPQL & SQL Queries               │
-└──────────────────────────────────────────────────────────────┘
+┌─ DATABASES ──────────────────────────────────────────────────────┐
+│  ▓▓▓▓▓▓▓▓▓ PostgreSQL (Expert)   ▓▓▓▓▓▓▓▓ MySQL                  │
+│  ✓ SQL Query Optimization       ✓ Transaction Management         │
+│  ✓ ER Diagram Design            ✓ Database Normalization         │
+│  ✓ JDBC/JPA/Hibernate ORM       ✓ Connection Pooling             │
+└──────────────────────────────────────────────────────────────────┘
 
-┌─ TOOLS & PLATFORMS ──────────────────────────────────────────┐
-│  ✓ Git & GitHub         ✓ Linux/Windows                     │
-│  ✓ Maven/Gradle         ✓ Postman API Testing               │
-│  ✓ VS Code              ✓ IntelliJ IDEA                     │
-└──────────────────────────────────────────────────────────────┘
+┌─ API DEVELOPMENT ────────────────────────────────────────────────┐
+│  ✓ RESTful Web Services         ✓ HTTP Methods (GET, POST, etc)  │
+│  ✓ Request/Response Mapping     ✓ Exception Handling             │
+│  ✓ Content Negotiation          ✓ API Versioning                 │
+│  ✓ Error Handling & Logging     ✓ API Documentation              │
+└──────────────────────────────────────────────────────────────────┘
+
+┌─ TOOLS & BUILD SYSTEMS ──────────────────────────────────────────┐
+│  ✓ Maven (Build Automation)     ✓ Git & GitHub (Version Control) │
+│  ✓ IntelliJ IDEA (IDE)          ✓ Postman (API Testing)          │
+│  ✓ JUnit & Mockito (Testing)    ✓ Gradle (Alternative Build)     │
+│  ✓ Linux/Windows Environment    ✓ Docker Basics                  │
+└──────────────────────────────────────────────────────────────────┘
+
+┌─ SUPPORTING SKILLS ──────────────────────────────────────────────┐
+│  ▓▓▓▓▓▓▓▓ JavaScript (Frontend)   ▓▓▓▓ HTML/CSS                   │
+│  ✓ Basic Node.js (Backend API)  ✓ Express.js (Alternative)      │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,js,html,css,nodejs,git,github" />
+  <img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,maven,git,github,linux,postman,junit,gradle,docker" />
 </p>
 
 ---
 
-## 📂 Featured Projects
+## 📂 Featured Projects - Backend Engineering Portfolio
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
-║                  🏆 PORTFOLIO PROJECTS                            ║
+║              PRODUCTION-READY BACKEND PROJECTS                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
-### 🔹 School Management System
+### 🎓 Project #1: School Management System
+
+**Advanced Spring Boot Backend with Database Design**
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  Stack: Spring Boot | PostgreSQL | REST APIs                   │
+│  TECHNOLOGY STACK                                               │
 │  ────────────────────────────────────────────────────────────   │
-│  ✓ Complete CRUD Operations                                    │
-│  ✓ Entity Relationship Diagram (ERD)                           │
-│  ✓ Relational Database Design                                  │
-│  ✓ RESTful API Endpoints                                       │
-│  ✓ Student & Course Management                                 │
-│  ✓ Enrollment System                                           │
+│  Backend: Spring Boot 2.x | Database: PostgreSQL | API: REST    │
+│                                                                 │
+│  KEY FEATURES                                                   │
+│  ────────────────────────────────────────────────────────────   │
+│  ✓ Entity Relationship Diagram (ERD) - 8+ Entities            │
+│  ✓ Relational Database Design with Foreign Keys              │
+│  ✓ Complete CRUD Operations (Create, Read, Update, Delete)   │
+│  ✓ RESTful API Endpoints with Request/Response Handling       │
+│  ✓ Advanced Queries (Joins, Aggregations, Filtering)         │
+│  ✓ Student, Course & Enrollment Management                    │
+│  ✓ Teacher Assignment & Schedule Management                   │
+│  ✓ JPA Annotations & Hibernate Mapping                        │
+│                                                                 │
+│  BACKEND PATTERNS IMPLEMENTED                                  │
+│  ────────────────────────────────────────────────────────────   │
+│  • Repository Pattern (Spring Data JPA)                       │
+│  • Service Layer Architecture                                 │
+│  • DTO Pattern for API Responses                              │
+│  • Exception Handling & Custom Error Responses                │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-🔗 **[View Project](#)** | **[GitHub Repo](#)** | **[API Docs](#)**
+🔗 **Links**: [GitHub Repository](#) | [Live API Demo](#) | [Swagger Docs](#)
 
 ---
 
-### 🔹 MyBlogApp
+### 💬 Project #2: MyBlogApp
+
+**Full-Stack Application with Security & Authentication**
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  Stack: Spring Boot | Thymeleaf | MySQL | Spring Security      │
+│  TECHNOLOGY STACK                                               │
 │  ────────────────────────────────────────────────────────────   │
-│  ✓ Full Stack Web Application                                  │
-│  ✓ User Authentication & Authorization                         │
-│  ✓ Blog Post CRUD Operations                                   │
-│  ✓ Admin Dashboard                                             │
-│  ✓ Comment & Rating System                                     │
-│  ✓ Search & Filter Functionality                               │
+│  Backend: Spring Boot | Frontend: Thymeleaf | DB: MySQL        │
+│  Security: Spring Security | Authentication: Session-Based     │
+│                                                                 │
+│  BACKEND FEATURES                                               │
+│  ────────────────────────────────────────────────────────────   │
+│  ✓ User Authentication & Authorization (Role-Based)           │
+│  ✓ Spring Security Configuration                              │
+│  ✓ Blog Post CRUD with User Association                       │
+│  ✓ Admin Dashboard with Statistics                            │
+│  ✓ Comment System with Nested Comments                        │
+│  ✓ Rating & Like Functionality                                │
+│  ✓ Search & Filtering Capabilities                            │
+│  ✓ Data Validation & Constraint Management                    │
+│                                                                 │
+│  ARCHITECTURE HIGHLIGHTS                                       │
+│  ────────────────────────────────────────────────────────────   │
+│  • Multi-layered Architecture (Controller-Service-Repository) │
+│  • Security Filters & Interceptors                            │
+│  • Session Management                                         │
+│  • Transaction Management (Declarative)                       │
+│  • Logging with SLF4J                                         │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-🔗 **[View Project](#)** | **[GitHub Repo](#)** | **[Live Demo](#)**
+🔗 **Links**: [GitHub Repository](#) | [Live Demo](#) | [Architecture Doc](#)
 
 ---
 
-### 🔹 Dog Breed Information System
+### 🐕 Project #3: Dog Breed Information System
+
+**API Integration & Data Access Layer Mastery**
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  Stack: Java | Public API Integration | JDBC | DAO Pattern     │
+│  TECHNOLOGY STACK                                               │
 │  ────────────────────────────────────────────────────────────   │
-│  ✓ RESTful API Integration                                      │
-│  ✓ Data Access Object (DAO) Pattern                            │
-│  ✓ JDBC Database Operations                                    │
-│  ✓ Breed Information Lookup                                    │
-│  ✓ Image Display & Filtering                                   │
-│  ✓ Error Handling & Validation                                 │
+│  Language: Core Java | Data Access: JDBC | Pattern: DAO        │
+│  API: Public REST APIs | Database: Local Storage               │
+│                                                                 │
+│  TECHNICAL CONCEPTS                                             │
+│  ────────────────────────────────────────────────────────────   │
+│  ✓ DAO (Data Access Object) Pattern Implementation            │
+│  ✓ JDBC Database Operations & Connection Management           │
+│  ✓ RESTful API Integration (HttpURLConnection/RestTemplate)   │
+│  ✓ JSON Parsing & Object Mapping                              │
+│  ✓ Exception Handling & Error Recovery                        │
+│  ✓ Breed Information Database                                 │
+│  ✓ Image Fetching & Caching                                   │
+│  ✓ Search & Filter by Breed Characteristics                   │
+│                                                                 │
+│  DESIGN PATTERNS APPLIED                                       │
+│  ────────────────────────────────────────────────────────────   │
+│  • Data Access Object (DAO)                                   │
+│  • Service Layer                                              │
+│  • Singleton for DB Connections                              │
+│  • Factory Pattern for Object Creation                        │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-🔗 **[View Project](#)** | **[GitHub Repo](#)**
+🔗 **Links**: [GitHub Repository](#) | [Source Code](#)
 
 ---
 
-## 🧩 Microservices Project (Advanced)
+## 🏛️ Backend Architecture & Design Patterns
+
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║             ARCHITECTURAL EXPERTISE & PATTERNS                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
+
+### Architectural Styles
+
+```
+┌─ Monolithic Architecture ────┐  ┌─ Microservices Architecture ──┐
+│ • Layered Architecture       │  │ • Service-Oriented Design     │
+│ • MVC Pattern               │  │ • Independent Deployments     │
+│ • N-Tier Architecture       │  │ • API Gateway Pattern         │
+│ • Single Codebase           │  │ • Coming Soon!                │
+└─────────────────────────────┘  └───────────────────────────────┘
+```
+
+### Design Patterns Mastered
+
+- 🔧 **Creational**: Singleton, Factory, Builder, Prototype
+- 🏗️ **Structural**: Adapter, Decorator, Facade, Proxy
+- 🔄 **Behavioral**: Repository, Observer, Strategy, State, Command
+- 📡 **Enterprise**: DAO, Service Locator, MVC, Model View ViewModel
+
+### Key Concepts
+
+- ✅ SOLID Principles (Single Responsibility, Open/Closed, Liskov, Interface Segregation, Dependency Inversion)
+- ✅ Object-Oriented Design Principles
+- ✅ REST API Design Patterns
+- ✅ Database Transaction Management
+- ✅ Exception Handling Strategy
+
+---
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
@@ -228,48 +352,114 @@
 
 ---
 
-## 🔥 2026 Focus
+## 🎯 Career Goals & Learning Path 2026
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
-║                  📈 LEARNING ROADMAP 2026                         ║
-╠═══════════════════════════════════════════════════════════════════╣
-║                                                                   ║
-║  Q1: Microservices Architecture → Q2: Advanced System Design    ║
-║                                                                   ║
-║  🎯 Goals:                                                       ║
-║     • Master Microservices & Distributed Systems                ║
-║     • 500+ LeetCode DSA Problems (Currently 300+)               ║
-║     • Deploy 2 Production-Ready Microservices                   ║
-║     • Achieve Product-Based Company Role                        ║
-║     • Deep dive into System Design Patterns                     ║
-║                                                                   ║
-║  📊 Progress Tracking:                                           ║
-║     [████████████████░░░░░░░░░░░░░░░░░░] 55% Completed        ║
-║                                                                   ║
+║            ROADMAP TO SENIOR JAVA BACKEND DEVELOPER              ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
+
+### Q1 2026 - Foundation Mastery
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ ✓ Advanced Spring Boot Features (Actuator, Profiles, Testing)  │
+│ ✓ Spring Security Deep Dive (OAuth2, JWT, RBAC)                │
+│ ✓ Database Performance Tuning & Query Optimization             │
+│ ✓ Unit Testing & Mockito Mastery                               │
+│ ✓ Git & GitHub Workflow Excellence                             │
+│                                                 Completion: 45% │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Q2 2026 - Advanced Topics
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ ⏳ Microservices Architecture & Spring Cloud                     │
+│ ⏳ Docker Containerization & Deployment                          │
+│ ⏳ API Gateway & Service Mesh Basics                             │
+│ ⏳ Message Queues (RabbitMQ, Kafka Basics)                      │
+│ ⏳ System Design for Backend Systems                             │
+│                                                 Completion: 30% │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Primary Objectives
+
+- 📈 **DSA Progress**: 300+ → **500+ problems solved** (LeetCode focus)
+- 🏢 **Product-Based Company**: Secure Senior/Mid-level role
+- 📚 **System Design**: Master large-scale system design
+- 🏗️ **Production Ready**: Deploy 2 microservice projects
+- 💼 **Interview Ready**: LeetCode Hard + System Design expertise
 
 ---
 
-## 💡 Pro Tips (For Recruiter Impact)
+---
+
+## 💡 Backend Developer Recruitment Strategy
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
-║              ⭐ RECRUITMENT STRATEGY CHECKLIST                    ║
-╠═══════════════════════════════════════════════════════════════════╣
-║                                                                   ║
-║  ✅ Add Swagger UI & Live API Documentation                      ║
-║  ✅ Deploy Backend on Render / Railway / AWS                     ║
-║  ✅ Create Project Demo Videos (LinkedIn/YouTube)                ║
-║  ✅ Pin Top 3 Projects on GitHub Profile                         ║
-║  ✅ Add Architecture Diagrams to README                          ║
-║  ✅ Write Clean, Well-Commented Code                             ║
-║  ✅ Maintain Active Contribution Streak                          ║
-║  ✅ Build End-to-End System Design Projects                      ║
-║                                                                   ║
+║              SHOWCASE FOR PRODUCT-BASED COMPANIES                ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
+
+### Immediate Actions (To Impress Recruiters)
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ BACKEND PORTFOLIO ENHANCEMENT                                   │
+├─────────────────────────────────────────────────────────────────┤
+│ ✅ Swagger/OpenAPI Documentation                                │
+│    └─ Add live Swagger UI to School Management API             │
+│ ✅ Deployed Backend Services                                    │
+│    └─ Deploy on Railway / Render / AWS EC2                     │
+│ ✅ GitHub Profile Optimization                                  │
+│    └─ Pin top 3 projects (School, Blog, Dog Breed)            │
+│ ✅ README Files for Each Project                               │
+│    └─ Architecture diagrams, setup instructions                │
+│ ✅ Code Quality                                                  │
+│    └─ SonarQube analysis, code comments, clean code            │
+│ ✅ Contribution Graph                                            │
+│    └─ Maintain active commit streak (GitHub Actions ready!)    │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Advanced Demonstrations
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ SHOW YOUR EXPERTISE                                              │
+├─────────────────────────────────────────────────────────────────┤
+│ 🎥 YouTube/LinkedIn: Project Walkthroughs                       │
+│    - Database design explanation                               │
+│    - API endpoint demonstrations                               │
+│    - Spring Boot feature showcase                              │
+│                                                                 │
+│ 📄 Medium/Dev.to Articles                                       │
+│    - "Building REST APIs with Spring Boot"                     │
+│    - "Database Design Patterns in Java"                        │
+│    - "Spring Security Implementation Guide"                    │
+│                                                                 │
+│ 🔗 Portfolio Website                                            │
+│    - Showcase backend projects                                 │
+│    - Display system architecture                               │
+│    - Live API endpoints                                        │
+│                                                                 │
+│ 🏆 LeetCode/GeeksforGeeks Stats                                │
+│    - 300+ problems solved badge                                │
+│    - Show contest rankings                                     │
+│    - Consistent daily streak                                   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Keywords for Recruiter Discovery
+
+`Java` `Spring Boot` `REST APIs` `PostgreSQL` `MySQL` `Microservices` `Backend` `System Design` `Scalable` `Production-Ready`
+
+---
 
 ---
 
